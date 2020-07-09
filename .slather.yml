@@ -1,0 +1,5 @@
+
+coverage_service: cobertura_xml
+xcodeproj: SwiftyLib.xcodeproj
+scheme: SwiftyLib
+output_directory: ./
