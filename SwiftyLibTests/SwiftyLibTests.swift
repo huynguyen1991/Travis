@@ -19,6 +19,10 @@ class SwiftyLibTests: XCTestCase {
     func testAdd() {
        XCTAssertEqual(swiftyLib.add(value1: 1, value2: 1), 2)
     }
+    func testSub() {
+       XCTAssertEqual(swiftyLib.sub(value1: 1, value2: 1), 0)
+    }
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
