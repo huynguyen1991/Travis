@@ -11,6 +11,9 @@ before_install:
 - bundle install
 - bundle exec pod install --repo-update
 
+before_script:
+- swiftlint
+
 script:
   - set -o pipefail && xcodebuild clean build test -enableCodeCoverage YES -workspace SwiftyLib.xcworkspace -scheme SwiftyLib -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES | xcpretty
 
