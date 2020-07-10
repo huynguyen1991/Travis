@@ -1,5 +1,6 @@
 
 coverage_service: cobertura_xml
+workspace: SwiftyLib.xcworkspace
 xcodeproj: SwiftyLib.xcodeproj
 scheme: SwiftyLib
 output_directory: ./

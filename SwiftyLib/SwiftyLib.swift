@@ -11,13 +11,10 @@ import Foundation
 public final class SwiftyLib {
 
     let name = "SwiftyLib"
-    
-    public func add(a: Int, b: Int) -> Int {
-        return a + b
+    public func add(value1: Int, value2: Int) -> Int {
+        return value1 + value2
     }
-    
-    public func sub(a: Int, b: Int) -> Int {
-        return a - b
+    public func sub(value1: Int, value2: Int) -> Int {
+        return value1 - value2
     }
-    
 }
